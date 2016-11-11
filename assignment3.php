@@ -1,4 +1,5 @@
 <?php
+  include 'ChildClass.php'
   $bestMeme = new ChildClass("pineapple", "apple", "doggo");
 ?>
 
@@ -11,6 +12,7 @@
 	<link rel="stylesheet" href="assignment3.css">
 </head>
 <body>
+  <h1>Assignment 3</h1>
   <section id="greatSection">
     <?= $bestMeme; ?>
   </section>

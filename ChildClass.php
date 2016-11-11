@@ -1,5 +1,6 @@
 <?php
 	// this file will extend PArentClass.php
+	include 'ParentClass.php'
 
 	class ChildClass extends ParentClass {
 		private $firstFt;
